@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="tricky.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Karla:wght@200..800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="body-card">
+            <div class="heading">
+                <h1 id="tricky">TRICKY ACE</h1>
+                <h4>PASSWORD GENERATOR</h4>
+            </div>
+            <div class="sub-head">
+                <h1>Generate a</h1>
+                <h1 class="rp">random password</h1>
+                <p class="subp">Never use an insecure password again.</p>
+            </div>
+            <button class="generate-btn" onclick="generate()">
+                <img 
+                    src="icon-1.png" 
+                    alt="lightning icon" 
+                    class="generate-icon"
+                />
+                Generate passwords
+            </button>
+            <p id="copy-el"></p>
+            <div class="password-grid">
+                <button class="password-btn" id="pass1-el">
+                    <img src="icon-2.png" alt="loading icon">
+                </button>
+                <button class="password-btn" id="pass2-el">
+                    <img src="icon-2.png" alt="loading icon">
+                </button>
+                <button class="password-btn" id="pass3-el">
+                    <img src="icon-2.png" alt="loading icon">
+                </button>
+                <button class="password-btn" id="pass4-el">
+                    <img src="icon-2.png" alt="loading icon">
+                </button>
+            </div>
+        </div>
+        <script src="tricky.js"></script>
+    </body>
+</html>

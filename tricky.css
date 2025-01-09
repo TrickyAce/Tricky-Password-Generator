@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    background: black;
+}
+
+.body-card{
+    width: 600px;
+    height: 540px;
+    margin: 100px auto;
+    background: #1F2937;
+    font-family: "Inter", serif;
+    padding: 0px 50px;
+}
+
+.heading{
+    display: flex;
+    color: #38BDF8;
+    font-weight: 800;
+}
+h4{
+    margin: 36px 0 0 10px;
+    font-family: "Karla", serif;
+    font-weight: 800;
+}
+
+.sub-head {
+    font-family: "Karla", serif;
+    font-weight: 800;
+    line-height: 0.3;
+    color: #ffffff;
+    margin-top: 25px;
+}
+.rp{
+    color: #38BDF8;
+}
+.subp{
+    font-family: "Inter", serif;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.generate-icon{
+    width: 13px;
+    margin-top: 5px;
+    margin-right: 2px;
+}
+
+.generate-btn{
+    margin-top: 40px;
+    background: #38BDF8;
+    border: none;
+    color: #ffffff;
+    padding: 5px 20px 8px 10px;
+    border-radius: 6px;
+    font-family: "Inter", serif;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.generate-btn:hover {
+    background: #30A9D2;
+    border: 2px solid #30A9D2;
+    box-shadow: 0 0 15px rgba(56, 189, 248, 0.7);
+    transform: scale(1.0);
+}
+
+#copy-el{
+    text-align: center;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+.password-grid{
+    border-top: solid 1px #6B7280;
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.password-btn{
+    border: none;
+    background: #6B7280;
+    width: 270px;
+    height: 40px;
+    border-radius: 6px;
+    color: #38BDF8;
+    font-family: "Inter", serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.password-btn:hover {
+    color: #ffffff; /* Change text color on hover */
+    text-shadow: 2px 2px 4px rgba(56, 189, 248, 0.7);
+    cursor: pointer;
+}
