@@ -17,6 +17,10 @@ body {
     color: #38BDF8;
     font-weight: 800;
 }
+.heading:hover{
+    text-decoration: underline;
+}
+
 h4{
     margin: 36px 0 0 10px;
     font-family: "Karla", serif;
